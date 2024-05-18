@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@300;400;600;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo">Victor.dev</p>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Portifolio</a></li>
+                    <li><a href="#">Contato</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Oi, Eu sou <span>Victor</span></br> e esse é o meu </br>Portifolio.</h1>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/joao23.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1>Sobre mim </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
+                    Non illum nihil voluptate dolorum itaque, asperiores veniam officia dicta cum sit obcaecati id quis magnam corrupti cupiditate architeco
+                    natus impedit in.</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experiencia</p>
+                        <p class="tab-links" onclick="opentab('education')">Educação</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designer de interfaces Web/App</li>
+                            <li><span>Desenvolverdor Web</span><br>Desenvolvedor Web</li>
+                            <li><span>Desenvolvedor App</span><br>Criador iOS/Aindroid apps</li>
+                
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022</span><br>Entrada em uma faculdade</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - 2027</span><br>Engenharia de Software</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                    <h2>Web Designer</h2>
+                    <p>Criação de sites responsivos, rápidos e acessíveis utilizando as mais recentes tecnologias e práticas recomendadas. Minha experiência abrange desde landing pages impactantes até complexos sistemas de gerenciamento de conteúdo.</p>
+                    <a href="">Veja mais </a>
+                </div>
+
+                <div>
+                    <ion-icon name="crop-outline"></ion-icon>
+                    <h2>UI/UX</h2>
+                    <p>Foco na experiência do usuário e na interface visual, garantindo que cada interação seja simples, agradável e eficaz. Realizo pesquisas de usuário, prototipagem e testes de usabilidade para aperfeiçoar cada detalhe do design.
+
+                    </p>
+                    <a href="">Veja mais </a>
+                </div>
+
+                <div>
+                    <ion-icon class="icon" name="logo-apple-appstore"></ion-icon>
+                    <h2>App Designer</h2>
+                    <p>Desenvolvimento de aplicativos móveis e web que combinam funcionalidade e estética. Desde a concepção até a implementação, crio soluções que se destacam pela usabilidade e design intuitivo.</p>
+                    <a href="">Veja mais </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Portifolio -->
+
+
+    <div id="portifolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work_list">
+                <div class="work">
+                    <img src="images/ADOPET.png">
+                    <div class="layer">
+                        <h3>AdoPet</h3>
+                        <p>Um site usado para adoção de animais de estimação, criada no intuito de ajudar e facilitar.</p>
+                            <a href="https://offklaus.github.io/Petshop/"><ion-icon class="icon" name="share-outline"></ion-icon></a>
+                            
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/fincias.png">
+                    <div class="layer">
+                        <h3>App de financias</h3>
+                        <p>Intuito de aprender e estudar, desenvolver um app onde controla seu gastos.</p>
+                            <a href=""><ion-icon class="icon" name="share-outline"></ion-icon></a>
+                            
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/LOGIN.png">
+                    <div class="layer">
+                        <h3>Aba Login</h3>
+                        <p>Em forma de aprendizagem com as ferramentas HTML,CSS</p>
+                            <a href=""><ion-icon class="icon" name="share-outline"></ion-icon></a>                           
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">Veja mais</a>
+
+        </div>
+    </div>
+
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-letf">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><ion-icon class="icon" name="send-outline"></ion-icon>joaovictorsrs2002@gmail.com.com</p>
+                    <p><ion-icon class="icon" name="call-outline"></ion-icon>35 99765-3327</p>
+                    <div class="social-icons">
+                        <a href=""><ion-icon class="icon" name="logo-facebook"></ion-icon></a>
+                        <a href=""><ion-icon class="icon" name="logo-twitter"></ion-icon></a>
+                        <a href=""><ion-icon class="icon" name="logo-instagram"></ion-icon></a>
+                        <a href=""><ion-icon class="icon" name="logo-linkedin"></ion-icon></a>
+                    </div>
+                    <a href="" class="btn bnt2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="" id="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>-
+            </div>
+        </div>
+
+
+    </div>
+
+    
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks ) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents ) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+
+</body>
+</html>
